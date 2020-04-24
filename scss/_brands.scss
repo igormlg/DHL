@@ -1,0 +1,48 @@
+.brands {
+  max-width: 1920px;
+}
+.brands__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 270px;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0;
+
+  list-style: none;
+}
+.brands__item {
+  height: 126px;
+
+  margin: 0;
+  padding: 0;
+  border: 2px solid #f2e5e5;
+
+  background-color: #f9f9f9;
+
+  &:hover {
+    border: 2px solid $main-red;
+  }
+
+  a {
+    padding: 38px 16px;
+    max-height: 126px;
+
+
+
+    display: block;
+    width: 100%;
+    margin: 0;
+    &:nth-child(2) {
+      padding: 26px 16px;
+    }
+    &:nth-child(3) {
+      padding: 30px 16px;
+    }
+  }
+
+  a img {
+    display: block;
+  }
+}

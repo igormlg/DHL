@@ -1,0 +1,102 @@
+.dhl-info {
+  min-height: 800px;
+  // background-color: $main-red;
+  background-image: linear-gradient(
+      50deg,
+      rgba(186, 0, 0, 1) 0%,
+      rgba(186, 0, 0, 1) 20%,
+      transparent 70%,
+      transparent 100%
+    ),
+    url("/images/header-img.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.dhl-info__wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+
+  h2 {
+    padding-top: 173px;
+    font-family: "Poppins-Bold", Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    color: white;
+  }
+
+  h3 {
+    position: relative;
+    margin-top: 90px;
+    font-family: "Poppins-Light", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: $main-y;
+    letter-spacing: 1px;
+    line-height: 1.4em;
+
+    &::before {
+      content: "";
+      top: -42px;
+      position: absolute;
+      background-color: $main-y;
+      width: 100px;
+      height: 5px;
+    }
+  }
+  .features {
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: "Poppins-Regular";
+    color: white;
+  }
+  .features__item {
+    position: relative;
+    //   display: inline-block;
+    padding-left: 60px;
+
+    &:first-child {
+      padding-left: 0px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-color: $main-y;
+      top: 100%;
+      left: 32px;
+      width: 5px;
+      height: 5px;
+      transform: translateY(-200%);
+      border-radius: 50%;
+    }
+    &:nth-child(1)::before {
+      display: none;
+    }
+  }
+}
+.button-info {
+  display: inline-block;
+  margin-top: 40px;
+  margin-right: 18px;
+
+  padding: 13px 33px;
+  background-color: $main-y;
+  border-radius: 40px;
+  font-family: "Poppins-Bold", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: $main-red;
+  font-size: 12px;
+  box-shadow: 0 2px 5px 2px #d17b01;
+  border: 3px solid transparent;
+
+  &:hover {
+    background-color: $main-red;
+    color: white;
+    border: 3px solid white;
+    box-shadow: none;
+  }
+}
+
