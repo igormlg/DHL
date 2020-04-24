@@ -1487,7 +1487,7 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 1920px;
+  max-width: 1920px;
 }
 
 .footer__wrapper {
