@@ -53,6 +53,10 @@
       transform: rotate(45deg) translateY(-100%);
     }
   }
+.open .header-01__form-01::after {
+  transform: rotate(25deg);
+}
+
 
   a {
     font-family: "Poppins-Regular", Arial, Helvetica, sans-serif;
@@ -154,6 +158,7 @@
 .open .label2::after {
   transform: rotate(225deg) translateY(50%);
 }
+
 
 .select2 {
   border: none;
