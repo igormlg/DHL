@@ -69,6 +69,9 @@ footer {
 }
 .group2__item {
   padding-right: 90px;
+  &:last-child {
+    padding-right: 0;
+  }
   h2 {
     font-size: 20px;
     padding: 0;
@@ -88,7 +91,6 @@ footer {
 }
 .footer__media a:hover {
   color: #2b93e4;
-
 }
 .footer__img {
   width: 415;

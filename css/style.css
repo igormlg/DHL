@@ -1561,6 +1561,10 @@ footer {
   padding-right: 90px;
 }
 
+.group2__item:last-child {
+  padding-right: 0;
+}
+
 .group2__item h2 {
   font-size: 20px;
   padding: 0;
